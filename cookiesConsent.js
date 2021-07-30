@@ -19,7 +19,7 @@ class CookiesConsent {
   addCss() {
     const stylesheet = document.createElement('link');
     stylesheet.setAttribute('rel', 'stylesheet');
-    stylesheet.setAttribute('href', `./cookiesConsent/cookiesConsent.css`);
+    stylesheet.setAttribute('href', `https://cdn.jsdelivr.net/gh/portalsosdesigners/config/cookiesConsent.css`);
     document.head.appendChild(stylesheet);
   }
 
